@@ -27,7 +27,7 @@
             <!-- Navbar Start -->
             @include('backend.includes.navbar')
             <!-- Navbar End -->
-@yield('content')
+            @yield('content')
 
 
             <!-- Footer Start -->
