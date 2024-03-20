@@ -18,7 +18,8 @@
         </div>
         <div class="navbar-nav w-100">
             <a href="#" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>>
-            <a href="chart.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Categoris</a>
+            <a href="{{ route('categories.index') }}" class="nav-item nav-link"><i
+                    class="fa fa-chart-bar me-2"></i>Categoris</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
                         class="far fa-file-alt me-2"></i>Pages</a>
