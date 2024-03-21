@@ -43,6 +43,7 @@
 
     <!-- JavaScript Libraries -->
     @include('backend.includes.script')
+    @stack('script')
 </body>
 
 </html>

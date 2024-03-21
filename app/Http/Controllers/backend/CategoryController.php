@@ -16,7 +16,7 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = Category::paginate(5);
-        return view('backend.category.index', compact('categories'));
+        return view('backend.pages.category.index', compact('categories'));
     }
 
     /**
@@ -24,7 +24,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('backend.category.create');
+        return view('backend.pages.category.create');
     }
 
     /**
@@ -47,7 +47,7 @@ class CategoryController extends Controller
     public function edit($id)
     {
         $category = Category::find($id);
-        return view('backend.category.edit', compact('category'));
+        return view('backend.pages.category.edit', compact('category'));
     }
 
     /**
